@@ -13,7 +13,6 @@ A Lua graphical telemetry script that works on a QX7 running EdgeTX 2.11 is avai
 - [`NazaCanSmartPort_RP2024.ino`](NazaCanSmartPort_RP2024.ino) – Arduino sketch
 - [`libraries_used.zip`](libraries_used.zip) – Arduino libraries used by the project, including RP2040-adapted versions
 - [`VERDRAHTUNG.pdf`](VERDRAHTUNG.pdf) – wiring overview
-- [`DJI CAN-BUS HUB.png`](<DJI CAN-BUS HUB.png>), [`MCP2515.png`](MCP2515.png), [`RP2040 PINOUT -Raspberry-Pi-Pico.jpg`](<RP2040 PINOUT -Raspberry-Pi-Pico.jpg>) – component and pinout references
 
 ## Requirements
 
@@ -114,7 +113,6 @@ Ein Lua-Skript, das mit einer QX7 unter EdgeTX 2.11 funktioniert, findest du in 
 - [`NazaCanSmartPort_RP2024.ino`](NazaCanSmartPort_RP2024.ino) – Arduino-Sketch
 - [`libraries_used.zip`](libraries_used.zip) – verwendete Arduino-Bibliotheken, darunter die für RP2040 angepassten Versionen
 - [`VERDRAHTUNG.pdf`](VERDRAHTUNG.pdf) – Verdrahtungsübersicht
-- [`DJI CAN-BUS HUB.png`](<DJI CAN-BUS HUB.png>), [`MCP2515.png`](MCP2515.png), [`RP2040 PINOUT -Raspberry-Pi-Pico.jpg`](<RP2040 PINOUT -Raspberry-Pi-Pico.jpg>) – Bauteil- und Pinout-Referenzen
 
 ## Voraussetzungen
 
