@@ -4,7 +4,7 @@
 
 This project connects a DJI Naza-M V1/V2 over CAN bus to FrSky S.Port telemetry. It uses a Raspberry Pi Pico (RP2040) and an MCP2515 CAN module.
 
-A Lua graphical telemetry script that works on a QX7 running EdgeTX 2.11 is available in my similar earlier project: [NazaSmartPort_Gyro_v1_Arduino_328P](https://github.com/frittna/NazaSmartPort_Gyro_v1_Arduino_328P).
+A Lua graphical telemetry script that works on a QX7 running EdgeTX 2.11 is available in my similar earlier project that decoded only the serial gps and no can-bus data: [NazaSmartPort_Gyro_v1_Arduino_328P](https://github.com/frittna/NazaSmartPort_Gyro_v1_Arduino_328P).
 
 > **Warning:** The DJI CAN-BUS HUB does not use the same pinout on all connectors. In particular, do not connect the +6 V pin on the single Micro-Fit connector to the Pico or MCP2515. Verify the connector pinout and the power requirements of your specific MCP2515 module before powering the system.
 
@@ -105,7 +105,7 @@ This project is for telemetry. Check the readings and sensor assignments on the 
 
 Dieses Projekt verbindet eine DJI Naza-M V1/V2 über den CAN-Bus mit der FrSky-S.Port-Telemetrie. Als Controller dient ein Raspberry Pi Pico (RP2040), als CAN-Interface ein MCP2515-Modul.
 
-Ein Lua-Skript, das mit einer QX7 unter EdgeTX 2.11 funktioniert, findest du in meinem ähnlichen früheren Projekt: [NazaSmartPort_Gyro_v1_Arduino_328P](https://github.com/frittna/NazaSmartPort_Gyro_v1_Arduino_328P).
+Ein Lua-Skript, das mit einer QX7 unter EdgeTX 2.11 funktioniert, findest du in meinem ähnlichen früheren Projekt wo seriellen GPS statt Can-Bus Daten ausgeselsen werden: [NazaSmartPort_Gyro_v1_Arduino_328P](https://github.com/frittna/NazaSmartPort_Gyro_v1_Arduino_328P).
 
 > **Achtung:** Die Verdrahtung am DJI CAN-BUS HUB ist nicht an allen Buchsen gleich. Insbesondere darf die +6-V-Leitung des einzelnen Micro-Fit-Anschlusses nicht mit dem Pico oder dem MCP2515 verbunden werden. Vor dem Einschalten die Pinbelegung und die Versorgung des konkreten MCP2515-Moduls prüfen.
 
