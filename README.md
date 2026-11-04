@@ -78,6 +78,8 @@ Connect all grounds (Pico, level shifter, MCP2515, and receiver/BEC). CAN_H and 
 | NCh1–NCh4 | `0x39` | `0x5240` / `0x5250` / `0x5260` / `0x5270` | Naza input channels; only NCh1 is enabled by default |
 | NBat / NBec / NHom | `0x39` | `0x5210` / `0x5220` / `0x5230` | Naza battery and BEC voltage in 1/100 V; distance to the home position in m |
 
+A Lua script that works on a QX7 running EdgeTX 2.11 is available in my similar earlier project: [NazaSmartPort_Gyro_v1_Arduino_328P](https://github.com/frittna/NazaSmartPort_Gyro_v1_Arduino_328P).
+
 The Naza extra sensor data IDs (`0x39`) may not be configured on your transmitter. Run a sensor discovery and rename the values as needed. Set NBat and NBec to unit **V** with two decimal places. Do not use the same physical sensor ID for another sensor on the S.Port bus.
 
 The sketch maps RPM values as `0 = MANUAL`, `1 = GPS`, `2 = FAILSAFE`, and `3 = ATTI`. Other values reported by a particular Naza system are not named and must be identified by observing the transmitter. GPS position and altitude values are updated only from fix type 2.
@@ -176,6 +178,8 @@ Alle Masseanschlüsse von Pico, Pegelanpassung, MCP2515 und Empfänger/BEC müss
 | AccX / AccY / AccZ | `0x1B` | `0x0700` / `0x0710` / `0x0720` | Lagevektor aus Pitch/Roll, skaliert mit 1000 |
 | NCh1–NCh4 | `0x39` | `0x5240` / `0x5250` / `0x5260` / `0x5270` | Naza-Eingangskanäle; standardmäßig nur NCh1 aktiv |
 | NBat / NBec / NHom | `0x39` | `0x5210` / `0x5220` / `0x5230` | Naza-Akku- und BEC-Spannung in 1/100 V; Entfernung zur Home-Position in m |
+
+Ein Lua-Skript, das mit einer QX7 unter EdgeTX 2.11 funktioniert, findest du in meinem ähnlichen früheren Projekt: [NazaSmartPort_Gyro_v1_Arduino_328P](https://github.com/frittna/NazaSmartPort_Gyro_v1_Arduino_328P).
 
 Die Daten-IDs der Naza-Zusatzwerte (`0x39`) sind nicht bei jedem Sender vorkonfiguriert. Eine Sensorsuche durchführen und die Werte anschließend passend umbenennen. Für NBat und NBec Einheit **V** und zwei Nachkommastellen einstellen. Keine doppelte physische Sensor-ID auf demselben S.Port-Bus verwenden.
 
