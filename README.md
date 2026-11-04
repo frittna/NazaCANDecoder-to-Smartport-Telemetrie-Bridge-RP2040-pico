@@ -19,7 +19,7 @@ A Lua graphical telemetry script that works on a QX7 running EdgeTX 2.11 is avai
 
 - Raspberry Pi Pico with RP2040 (not Pico W or Pico 2)
 - DJI Naza-M V1/V2 and DJI CAN-BUS HUB
-- MCP2515 module with an 8 MHz crystal
+- MCP2515 module with an 8 MHz crystal + Level Shifter
 - FrSky receiver / S.Port connection
 - Arduino IDE 2.x
 - RP2040 board package by Earle F. Philhower, III (tested with version 6.3.2)
@@ -120,7 +120,7 @@ Ein Lua-Skript, das mit einer QX7 unter EdgeTX 2.11 funktioniert, findest du in 
 
 - Raspberry Pi Pico mit RP2040 (nicht Pico W oder Pico 2)
 - DJI Naza-M V1/V2 und DJI CAN-BUS HUB
-- MCP2515-Modul mit 8-MHz-Quarz
+- MCP2515-Modul mit 8-MHz-Quarz + Level Shifter
 - FrSky-Empfänger bzw. S.Port-Anschluss
 - Arduino IDE 2.x
 - RP2040-Boardpaket von Earle F. Philhower, III (im Sketch getestet mit Version 6.3.2)
